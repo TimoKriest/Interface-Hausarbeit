@@ -14,6 +14,7 @@ public class AnswerScipt : MonoBehaviour
         }
         else
         {
+            quizManager.wrongAnswer();
             Debug.Log("Wrong Answer");
         }
  }
